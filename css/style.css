@@ -1,0 +1,56 @@
+body {
+}
+
+.bg-1 {
+  background-color: #caffff;
+  height: 100vh;
+}
+
+.bg-2 {
+  background-color: #9ef1f1;
+  height: 100vh;
+}
+
+.big-space {
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.cut-left {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+  background-color: #9ef1f1;
+}
+
+.cut-right {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  background-color: #caffff;
+}
+
+.flexbox {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.space {
+  width: 40%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.fonte-grande {
+  font-size: 5vw;
+}
+.fonte-media {
+  font-size: 3vw;
+}
+.fonte-pequena {
+  font-size: 1.5vw;
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 100%;
+}
